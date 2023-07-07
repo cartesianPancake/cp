@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Vince's Portfolio</title>
+</head>
+<body>
+  <header class="h-96 bg-gray-900">
+    <div class="flex flex-col items-center justify-center h-full text-white">
+      <h1 class="text-4xl font-bold">Vince's Portfolio</h1>
+    </div>
+  </header>
+
+  <main class="container mx-auto mt-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="bg-white shadow p-4">
+        <img src="https://via.placeholder.com/300" alt="Project 1">
+        <h2 class="text-lg font-bold mt-4">Project 1</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="bg-white shadow p-4">
+        <img src="https://via.placeholder.com/300" alt="Project 2">
+        <h2 class="text-lg font-bold mt-4">Project 2</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="bg-white shadow p-4">
+        <img src="https://via.placeholder.com/300" alt="Project 3">
+        <h2 class="text-lg font-bold mt-4">Project 3</h2>
+        <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <h2 class="text-2xl font-bold">About Me</h2>
+      <p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius risus quis rutrum. Fusce aliquam nunc quis velit posuere, nec tempor magna pharetra. Curabitur malesuada maximus ligula eget pharetra. Cras lacinia purus in nisl eleifend, non fringilla turpis pharetra.</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
